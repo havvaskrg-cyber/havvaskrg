@@ -1,92 +1,86 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <title>Für mein Ayi ❤️</title>
+    <title>Doğum Günün Kutlu Olsun</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background-color: #fff0f5;
-            color: #333;
+            margin: 0;
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(to right, #40E0D0, #48D1CC);
+            color: white;
             text-align: center;
-            padding: 40px;
-            line-height: 1.6;
         }
-        .brief {
+
+        .container {
+            padding: 40px;
+        }
+
+        h1 {
+            font-size: 3em;
+        }
+
+        p {
+            font-size: 1.3em;
             max-width: 700px;
             margin: auto;
-            background: white;
-            padding: 30px;
+            line-height: 1.6;
+        }
+
+        .gallery {
+            margin-top: 40px;
+        }
+
+        .gallery img, .gallery video {
+            width: 300px;
+            margin: 10px;
             border-radius: 15px;
-            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
         }
-        h1 {
-            color: #d63384;
-        }
-        .abschluss {
-            margin-top: 30px;
-            font-weight: bold;
-            color: #b30059;
-        }
-        .video-container {
-            margin-top: 20px;
-            position: relative;
-            padding-bottom: 56.25%; /* 16:9 */
-            height: 0;
-        }
-        .video-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
+
+        footer {
+            margin-top: 50px;
+            font-size: 0.9em;
         }
     </style>
 </head>
 <body>
 
-<div class="brief">
-    <h1>Hallo mein Ayi ❤️</h1>
+<div class="container">
+    <h1>Doğum Günün Kutlu Olsun 🎉</h1>
 
     <p>
-        Du denkst dir wahrscheinlich: Warum kann ich nicht einfach eine normale Ehefrau haben?
-        Aber ich wollte dir nicht nur einen einfachen Brief schreiben.
+        Bu hediyeyi sana seçmemin sebebi çok özel… <br><br>
+
+        Çünkü senin kalbinin ne kadar temiz ve güzel olduğunu biliyorum.  
+        Çocuklara olan sevgin, onların yüzündeki bir gülümseme için bile her şeyi yapabilecek olman beni her zaman etkiledi.  
+        <br><br>
+        Sen, sahip olduğun bu güzel kalple, bugününü daha az şansa sahip çocuklarla bile paylaşabilecek birisin.  
+        <br><br>
+        İşte tam da bu yüzden, bu hediye senin gibi biri için anlamlı olsun istedim.  
+        <br><br>
+        İyi ki varsın… 💙
     </p>
 
-    <p>
-        Ich bin so froh, dass es dich gibt und dass wir zueinander gefunden haben.
-        Ich danke dir dafür, dass du mit mir geduldig bist, mich respektierst,
-        immer hinter mir stehst und dass so ein großes Vertrauen zwischen uns ist.
-    </p>
+    <div class="gallery">
+        <h2>Fotoğraflar 📸</h2>
+        <img src="images/foto1.jpg" alt="">
+        <img src="images/foto2.jpg" alt="">
+        <img src="images/foto3.jpg" alt="">
 
-    <p>
-        Danke, dass du uns nie aufgegeben hast und immer gekämpft hast.
-        Auch wenn ich im Unrecht war, hast du alles getan, damit ich nicht im Unrecht bleibe.
-        Wir haben es durch alle Krisen geschafft, die andere Ehepaare noch vor sich haben.
-    </p>
+        <h2>Videolar 🎬</h2>
+        <video controls>
+            <source src="videos/video1.mp4" type="video/mp4">
+        </video>
 
-    <p>
-        Ich liebe dich so sehr. Seni çok seviyorum.
-        Bak bana, ikimiz yan yana, can cana.
-        Geriye bakmadan anlamam seni, anlamam;
-        ama ein Tag vergeht nicht ohne an dich zu denken.
-    </p>
-
-    <div class="video-container">
-        <iframe 
-            src="https://www.youtube.com/embed/zZIuVLDguEA?autoplay=1&loop=1&playlist=zZIuVLDguEA"
-            title="YouTube Video"
-            frameborder="0"
-            allow="autoplay; encrypted-media"
-            allowfullscreen>
-        </iframe>
+        <video controls>
+            <source src="videos/video2.mp4" type="video/mp4">
+        </video>
     </div>
 
-    <p class="abschluss">
-        Seni çok seviyorum ❤️ <br>
-        Senin Maymun
-    </p>
+    <footer>
+        Senin için hazırlandı ❤️
+    </footer>
 </div>
 
 </body>
-</html>
